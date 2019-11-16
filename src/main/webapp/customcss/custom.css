@@ -1,0 +1,14 @@
+.product_page_container {
+    width: 100px;
+    height: 100px;
+}
+
+.panel-main-content {
+    height: 430px;
+}
+
+.product_page1_container {
+    width: 500px;
+    height: 250px;
+    padding:10px;
+}

@@ -1,0 +1,180 @@
+#snackbar {
+	visibility: hidden;
+	min-width: 250px;
+	margin-left: -125px;
+	background-color: #51a351;
+	color: #fff;
+	text-align: center;
+	border-radius: 2px;
+	padding: 16px;
+	position: fixed;
+	z-index: 1;
+	left: 50%;
+	bottom: 30px;
+	font-size: 17px;
+}
+
+#snackbar.show {
+	visibility: visible;
+	-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+	animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@
+-webkit-keyframes fadein {
+	from {bottom: 0;
+	opacity: 0;
+}
+
+to {
+	bottom: 30px;
+	opacity: 1;
+}
+
+}
+@
+keyframes fadein {
+	from {bottom: 0;
+	opacity: 0;
+}
+
+to {
+	bottom: 30px;
+	opacity: 1;
+}
+
+}
+@
+-webkit-keyframes fadeout {
+	from {bottom: 30px;
+	opacity: 1;
+}
+
+to {
+	bottom: 0;
+	opacity: 0;
+}
+
+}
+@
+keyframes fadeout {
+	from {bottom: 30px;
+	opacity: 1;
+}
+
+to {
+	bottom: 0;
+	opacity: 0;
+}
+
+}
+#punediv {
+	
+}
+
+.div1 {
+	display: none;
+	height: 0px;
+	margin-bottom: 50px;
+}
+
+.grecaptcha-badge {
+	display: none;
+}
+
+.carousel .item{
+    height: 400px;
+    -webkit-transition: 0.6s ease-in-out left;
+    -moz-transition: 0.6s ease-in-out left;
+    -o-transition: 0.6s ease-in-out left;
+    transition: 0.6s ease-in-out left;
+}
+
+.toast-top-right {
+	top: 345px;
+	right: 39%;
+}
+
+@media only screen and (max-width: 480px) {
+	.header1 {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		padding-right: 5%;
+		z-index: 10000;
+		height: auto;
+		background-color: #fc7700 !important;
+	}
+	.statsfont {
+		font-size: x-small !important;
+	}
+	.mobilehide {
+		display: none !important;
+	}
+	.mobileshow {
+		display: block !important;
+	}
+}
+
+img.visit-card-container {
+    width: 300px;
+}
+
+.custom-nav-cls{
+	background-color:orange;
+}
+
+.padding_above_courosel{
+	padding-top:80px;
+}
+
+.carousel-inner{
+  width:100%;
+  max-height: 500px !important;
+}
+
+#myCarousel .carousel-caption {
+    color: navajowhite;
+    right: 58%;
+    text-align: center;
+    max-width: 500px;
+    left: auto;
+    /*top: auto;*/
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+
+.item {
+    -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  }
+
+.sliderimagecls{
+	width: 100%; 
+	height: 300px;
+	border:5px solid blue;
+}
+
+.custom-height-address-panel{
+	height: 190px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.padding_all10{
+	padding:10px;	
+} 
+
+.text_align_center{
+  text-align:center;
+}
+
+.bodycls {
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	font-weight:400;
+	color:#43484E;
+}
